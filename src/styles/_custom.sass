@@ -4,29 +4,368 @@
     position: absolute
     top: 20%
     right: 10%
+    width: 94px
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 65%
+    right: 83%
+    width: 95px
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 35%
+    right: 84%
+    width: 91px
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url("../assets/curso/portada/fondo-banner-principal-tb.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-mv.png") !important
 
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: black !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+.bg
+  &-intro1
+    background-image: url(../assets/curso/intro/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-intro2
+    background-color: #BCE0FC
+  &-t1-1 
+    background-color: #FED6A8
+    background-size: 100% auto
+  &-c6
+    padding-left: 10px
+    padding-right: 10px
+    background-color: #FED6A8
+  &-t1-2 
+    background-image: url(../assets/curso/tema1/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-c3 
+    background-image: url(../assets/curso/tema1/bannericon1.svg)
+    background-repeat: no-repeat
+    background-position: center
+    @media screen and ( max-width: $bp-max-sm )
+      background-repeat: repeat
+  &-c5 
+    background-color: #FED6A8
+    border-end-end-radius: 10px
+    padding: 4px
+  &-c4
+    background-image: url(../assets/curso/tema3/bg-sub2.svg)
+    background-repeat: no-repeat
+    background-position: center
+    @media screen and ( max-width: $bp-max-sm )
+      background-repeat: repeat
+  &-t1-3 
+    background-color: #E6DCFB
+  &-t1-4
+    background-image: url(../assets/curso/tema1/bg2.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-icon-ul
+    background-image: url('../assets/curso/tema1/icon-ul.svg')
+    background-repeat: no-repeat
+    background-size: 16px 16px
+    width: 16px
+    height: 16px
+    display: inline-block
+    flex-shrink: 0
+    margin-right: 8px
+    margin-top: 0px
+  &-t1-5 
+    background-color: #DDEFFD
+  &-t1-6 
+    background-color: #FEEAD4 !important
+    cursor: pointer !important
+    transition: background-color 0.3s ease-in-out !important
+    &:hover 
+      background-color: #DDEFFD !important
+  &-t1-7
+    background-image: url(../assets/curso/tema1/bg3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-1
+    background-image: url(../assets/curso/tema2/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-2
+    background-color: #5B39A6 !important
+    color: #fff !important
+  &-t2-3 
+    background-color: white
+    border: 1px solid #8454EE
+  &-t2-4 
+    background-color: #F2E9E4
+  &-t2-5
+    background-image: url(../assets/curso/tema2/bg2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-6
+    background-image: url(../assets/curso/tema2/bg3.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-7 
+    background-color: #EDF7FE
+  &-t2-8 
+    padding-left: 10px
+    padding-right: 10px
+    background-color: #FD9826
+  &-t2-9
+    background-color: #F9F7F4
+    border-bottom: 1px solid #E8E8E8 !important
+  &-sub2
+    background-color: #FED6A8
+    border-radius: 10px
+  &-t3-1
+    background-color: #F2ECFD
+    
+// Carousel Styles
+.carousel-bg .fas
+ &.fa-chevron-left, &.fa-chevron-right
+   display: inline-flex
+   align-items: center
+   justify-content: center
+   width: 40px
+   height: 40px
+   background-color: $color-acento-botones
+   border-radius: 50%
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+   color: #000
+   font-size: 16px
+   @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-f
+   &__main
+     width: 76%
+   &__btn
+     width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+ .slyder-f
+   &__main
+     width: 60%
+   &__btn
+     width: 20%
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem 
+
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+.lista-ul--color li > i:first-of-type 
+    color: #5B39A6 !important
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #FED401
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #FED401
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #FD9826 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #FD9826
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #F8A230
+
+.acordion__accion__btn--a
+  background-color: #FED401 !important
+
+.acordion__activo
+  background-color: #E6DCFB !important
+  color: #000 !important
+  h3
+    color: black !important
+
+.acordion__titulo
+  h3
+    color: white 
+
+  
+////////////////////////////////////
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right 
+    background-color: #FED401
+
+.borde-num
+  border-bottom: 2px solid #AFAFAF
+
+.row-equal-height 
+  height: 110px !important
+  @media screen and (max-width: $bp-max-sm)
+    height: auto !important
+
+.row-equal-height2 
+  height: 150px !important
+  @media screen and (max-width: $bp-max-sm)
+    height: auto !important
+
+.tarj-t1
+  width: 295px !important
+  height: 326px !important
+  @media screen and (max-width: $bp-max-sm)
+    margin: auto !important
+
+.hr-big
+  height: 2px
+  background-color: #707070
+  border: none
+
+.lista-ol--cuadro li
+  display: flex
+  align-items: flex-start
+  gap: 5px
+
+.lista-ol--cuadro__vineta
+  min-width: 25px
+  text-align: center
+
+.slyder-a__bullets__item
+  @media screen and (max-width: $bp-max-sm)
+    width: 6px
+    height: 6px
+    margin: 0 5px
+
+
+
+
+  
