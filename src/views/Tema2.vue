@@ -42,7 +42,7 @@
 
           .row.mt-2.justify-content-center
             .col-lg-10(data-aos="fade-left")
-              AcordionA(tipo="a" clase-tarjeta="tarjeta bg-t2-2")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row.justify-content-center(titulo="Según su objetivo")
                   .col-lg-2.mb-4.mb-lg-0
                     figure
@@ -260,7 +260,7 @@
        .p-5
           .row.mt-2.justify-content-center
             .col-lg-10
-              AcordionA(tipo="a" clase-tarjeta="tarjeta bg-t2-2")
+              AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row.justify-content-center(titulo="Sociedad colectiva:")
                   .col-lg-2.mb-4.mb-lg-0
                     figure
@@ -941,24 +941,25 @@
             h3.mb-0 Fenómenos societarios
 
 
-    .tarjeta--container.row.mb-5.mt-4
-      .col-md.tarjeta.p-5(style="background-color: #412976")
-        .d-flex.align-items-center.mb-3
-          img(src='@/assets/curso/tema2/img34.svg', style="width:76px")
-          h4.mb-0.ms-3.text-black 
-            b.bg-t2-8 Transformación:
 
-        p.mt-4.text-white La transformación es una reforma estatutaria en la cual la sociedad cambia de tipo societario, modificando el tipo de organización jurídica de la entidad según lo estipulado en el Código de Comercio (Secretaría del Senado, 2020, Art. 167).
-
-        p.text-white Por ejemplo, cuando las empresas unipersonales se transformaron en Sociedad de Acciones Simplificadas (SAS), conforme los lineamientos establecidos en la Ley 1258 de 2008 (Secretaría del Senado, 2020).
-
-      .col-md.tarjeta.p-5(style="background-color: #E8E8E8")
-        .d-flex.align-items-center.mb-3
-          img(src='@/assets/curso/tema2/img34.svg', style="width:76px")
-          h4.mb-0.ms-3.text-black 
-            b.bg-t2-8 Fusión:
-
-        p La fusión es una reforma estatutaria en la cual una o más sociedades se disuelven sin liquidarse, para ser absorbidas por otra o crear una nueva. De esta manera, traspasan sus activos, pasivos, derechos y obligaciones a otra(s) sociedad(es) existente (sociedad absorbente) o a la nueva sociedad según lo estipulado en el Código de Comercio (Secretaría del Senado, 2020, Art. 172). 
+    .row.align-items-center.m-0
+      .col-xl-6.tarjeta__doble_1
+        .row
+          .col-lg-auto
+            figure.mb-4(data-aos="fade-right")
+              img(src='@/assets/curso/tema2/img34.svg', alt='' style="max-width: 76px")
+          .col-lg
+            h4 Transformación:
+        p.mb-3 La transformación es una reforma estatutaria en la cual la sociedad cambia de tipo societario, modificando el tipo de organización jurídica de la entidad según lo estipulado en el Código de Comercio (Secretaría del Senado, 2020, Art. 167).
+        p.mb-0 Por ejemplo, cuando las empresas unipersonales se transformaron en Sociedad de Acciones Simplificadas (SAS), conforme los lineamientos establecidos en la Ley 1258 de 2008 (Secretaría del Senado, 2020).
+      .col-xl-6.tarjeta__doble_2.espacio_1
+        .row
+          .col-lg-auto
+            figure.mb-4(data-aos="fade-left")
+              img(src='@/assets/curso/tema2/img34.svg', alt='' style="max-width: 76px")
+          .col-lg
+            h4 Fusión:
+        p.mb-0 La fusión es una reforma estatutaria en la cual una o más sociedades se disuelven sin liquidarse, para ser absorbidas por otra o crear una nueva. De esta manera, traspasan sus activos, pasivos, derechos y obligaciones a otra(s) sociedad(es) existente (sociedad absorbente) o a la nueva sociedad según lo estipulado en el Código de Comercio (Secretaría del Senado, 2020, Art. 172).  
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido

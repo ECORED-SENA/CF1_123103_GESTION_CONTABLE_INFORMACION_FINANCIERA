@@ -304,21 +304,25 @@ figcaption
   background-color: #FD9826
 
 ///// Custom acordeon A tipo A -------------------------------------- 
-.tarjeta.acordeonA
-  background-color: #F8A230
-
 .acordion__accion__btn--a
-  background-color: #FED401 !important
-
-.acordion__activo
-  background-color: #E6DCFB !important
-  color: #000 !important
-  h3
-    color: black !important
-
+  background-color: $color-acento-botones
+.acordeonA
+  position: relative
+  width: 100%
+  background-color: #003F62 !important
+  @media screen and (max-width: 1200px)
+    width: 100%
+  p
+    padding-left: 3.5rem
 .acordion__titulo
   h3
-    color: white 
+    color: white !important
+.acordion__activo
+  background-color: #CBD8DF !important
+  h3
+    color: $color-sistema-texto !important
+
+
 
   
 ////////////////////////////////////
@@ -366,6 +370,46 @@ figcaption
     margin: 0 5px
 
 
+.tarjeta__doble_1
+  background-color: $color-primario
+  height: 430px
+  padding: 4rem 3rem
+  border-top-left-radius: 20px
+  border-bottom-left-radius: 20px
+  h4
+    color: white
+    margin: 0
+    position: relative
+    bottom: -3.7rem
+  p
+    color: white
+  @media screen and (max-width: 1200px)
+    border-radius: 20px
+    h4
+      bottom: 0rem
+  @media screen and (max-width: 576px)
+    height: 620px
+.tarjeta__doble_2
+  background-color: $color-acento-contenido
+  height: 430px
+  padding: 4rem 3rem
+  border-top-left-radius: 0px
+  border-bottom-left-radius: 0px
+  border-top-right-radius: 20px
+  border-bottom-right-radius: 20px
+  h4
+    margin: 0
+    position: relative
+    bottom: -3.8rem
+  @media screen and (max-width: 1200px)
+    height: 390px
+    border-radius: 20px
+    h4
+      bottom: 0rem
+  @media screen and (max-width: 576px)
+    height: 570px
 
-
+.espacio_1
+  @media screen and (max-width: 1200px)
+    margin-top: 1rem !important
   
