@@ -37,6 +37,9 @@
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-mv.png") !important
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principal_temas.png") !important
+
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
@@ -63,6 +66,8 @@ figcaption
   &-c6
     padding-left: 10px
     padding-right: 10px
+    display: inline-block
+    margin-left: 6.5rem
     background-color: #FED6A8
   &-t1-2 
     background-image: url(../assets/curso/tema1/bg1.png)
@@ -86,7 +91,8 @@ figcaption
     @media screen and ( max-width: $bp-max-sm )
       background-repeat: repeat
   &-t1-3 
-    background-color: #FBEAE6
+    background-color: #E4EAEE
+    padding: 1.5rem
   &-t1-4
     background-image: url(../assets/curso/tema1/bg2.jpg)
     background-repeat: no-repeat
@@ -128,6 +134,8 @@ figcaption
     border: 1px solid #8454EE
   &-t2-4 
     background-color: #F2E9E4
+  &-t2-4_1
+    background-color: #E4EAEE
   &-t2-5
     background-image: url(../assets/curso/tema2/bg2.png)
     background-repeat: no-repeat
@@ -151,7 +159,7 @@ figcaption
     background-color: #FED6A8
     border-radius: 10px
   &-t3-1
-    background-color: #F2ECFD
+    background-color: #FBEAE6
     
 // Carousel Styles
 .carousel-bg .fas
@@ -184,6 +192,21 @@ figcaption
      width: 60%
    &__btn
      width: 20%
+
+/// TARJETAS CON HOVER
+.tarjeta--boton
+  background-color: #CBD8DF !important
+.tarjeta--boton:hover
+  background-color: #FED5A7 !important
+
+.tabs-c__tab--active
+  font-weight: bold
+.tabs-c__content-item
+  background-color: #E4EAEE !important
+  padding: 2rem
+.tabs-c
+  border-bottom: none !important
+
 
 //// Tarjetas --------------------------------------
 .crd

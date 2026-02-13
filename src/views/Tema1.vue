@@ -7,7 +7,7 @@
         span 1
       h1(data-aos="fade-left") Comerciante
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-0
       .col-lg-12(data-aos="fade-down")
         .row.d-flex.align-items-stretch.bg-t1-1
           .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
@@ -432,7 +432,7 @@
 
       .col-sm-6.col-lg-3
         .tarjeta--boton.bg-t1-6.p-4.tarj-t1
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.align-items-center.mb-3
             .col-7
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/tema1/img30.svg', style="width:95px").m-auto

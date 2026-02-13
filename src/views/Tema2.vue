@@ -968,7 +968,7 @@
     p(data-aos="fade-left") Para constituir una empresa es importante dar cumplimiento a los requisitos comerciales, laborales, tributarios y de funcionamiento; sin olvidar, aplicar adecuadamente las Normas Internacionales de Información Financiera (NIIF) para llevar a cabo el proceso contable de forma satisfactoria.  A continuación, se relacionan los diversos requisitos, los cuales aplican de acuerdo con el tipo de empresa que se desea constituir:
 
     TabsC.color-acento-contenido
-      .py-3.py-md-4.bg-t2-9(titulo="Normas comerciales")
+      .py-3.py-md-4(titulo="Normas comerciales")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.p-5
             h4 Normas comerciales
@@ -998,7 +998,7 @@
                 |
                 p.mb-0 Una vez diligenciados los formularios pertinentes se genera la inscripción del registro mercantil y se obtiene el certificado de existencia y representación legal.
 
-      .py-3.py-md-4.bg-t2-9(titulo="Normas laborales")
+      .py-3.py-md-4(titulo="Normas laborales")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.p-5
             h4 Normas laborales
@@ -1024,7 +1024,7 @@
                 p.mb-0 Diseñar e implementar un programa de Seguridad y Salud en el Trabajo, aplicable de acuerdo con el número de trabajadores.
 
 
-      .py-3.py-md-4.bg-t2-9(titulo="Normas tributarias")
+      .py-3.py-md-4(titulo="Normas tributarias")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.p-5
             h4 Normas tributarias
@@ -1049,7 +1049,7 @@
                 |
                 p.mb-0 Presentar oportunamente las declaraciones de retención en la fuente por renta, IVA y de ICA, teniendo en cuenta la norma vigente y si cumple con los requisitos para realizarlo.
 
-      .py-3.py-md-4.bg-t2-9(titulo="Normas de funcionamiento")
+      .py-3.py-md-4(titulo="Normas de funcionamiento")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.p-5
             h4 Normas de funcionamiento
@@ -1075,7 +1075,7 @@
                 p.mb-0 Solicitar paz y salvo de Sayco y Acinpro para el pago de derechos de autor e intérpretes musicales.
 
 
-      .py-3.py-md-4.bg-t2-9(titulo="Normas de información financiera")
+      .py-3.py-md-4(titulo="Normas de información financiera")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.p-5
             h4 Normas de información financiera
@@ -1091,7 +1091,7 @@
 
             p Teniendo en cuenta lo anterior, es emitido el documento “Direccionamiento estratégico” por parte del Consejo Técnico de la Contaduría Pública (CTCP), con el fin de iniciar el proceso de convergencia hacia las normas internacionales; por lo tanto, se establecen los grupos de presentación de información financiera y se estipulan los requisitos para iniciar el periodo de preparación, transición, aplicación y reporte de las normas internacionales.
 
-      .py-3.py-md-4.bg-t2-9(titulo="Grupos de presentación")
+      .py-3.py-md-4(titulo="Grupos de presentación")
         .row.justify-content-center
           .col-md-10.mb-4.mb-md-0.p-5
             h4 Grupos de presentación

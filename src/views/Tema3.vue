@@ -9,7 +9,7 @@
 
     .row.align-items-center.justify-content-center
       .col-lg-7 
-        p.p-4.bg-t2-4(data-aos="fade-left") El término administración existe desde la época primitiva, donde se realizaban trabajos rudimentarios. Toma importancia a partir de la revolución industrial, atendiendo la necesidad de coordinar esfuerzos y organizar las actividades con el fin de generar productividad y eficiencia.
+        p.p-4.bg-t2-4_1(data-aos="fade-left") El término administración existe desde la época primitiva, donde se realizaban trabajos rudimentarios. Toma importancia a partir de la revolución industrial, atendiendo la necesidad de coordinar esfuerzos y organizar las actividades con el fin de generar productividad y eficiencia.
 
         p El desarrollo de la administración ha estado marcado por diversas corrientes teóricas que han contribuido a la evolución de la gestión organizacional. Desde la administración científica hasta la escuela neoclásica, cada enfoque ha aportado principios clave que han permitido mejorar la eficiencia, la estructura y la toma de decisiones en las organizaciones. La siguiente tabla presenta una comparación de estas teorías, sus principales exponentes y los aportes que han dejado en la gestión empresarial.
 
@@ -53,12 +53,12 @@
             td.text-start Peter Drucker, Lawrence Appley, George Terry.
             td.text-start Tienen en cuenta la administración por objetivos, profundización en el proceso administrativo. Hace énfasis al modelo actual.
 
-    .row.align-items-center.justify-content-center.p-4.mt-4.bg-t1-3
-      .col-lg-2
+    .row.align-items-center.justify-content-center.mt-4.bg-t1-3
+      .col-lg-auto
         figure(data-aos="fade-down")
           img(src="@/assets/curso/tema3/img2.svg", alt="", style="width: 88px").m-auto
-      .col-lg-10
-        p Actualmente, existen otros enfoques que contribuyen notoriamente con las necesidades de las organizaciones y su entorno, entre ellas se encuentran: <em>Benchmarking</em>, Calidad total, <em>Empowerment</em>, <em>Downsizing</em>, <em>Coaching</em>, <em>Balanced Scorecard</em> y Teorías de restricciones, las cuales dan respuesta a los criterios de eficiencia, eficacia y valor agregado (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019).
+      .col-lg
+        p.mb-0 Actualmente, existen otros enfoques que contribuyen notoriamente con las necesidades de las organizaciones y su entorno, entre ellas se encuentran: <em>Benchmarking</em>, Calidad total, <em>Empowerment</em>, <em>Downsizing</em>, <em>Coaching</em>, <em>Balanced Scorecard</em> y Teorías de restricciones, las cuales dan respuesta a los criterios de eficiencia, eficacia y valor agregado (Angulo, 2018; Münch, 2015; Sánchez, 2015; Vilches, 2019).
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
@@ -80,43 +80,43 @@
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema3/img4.svg", alt='', style="width: 90px").m-auto
-                    p.text-small.text-center.mb-2 #[b Funciones técnicas]
-                    p.text-small.text-center.mb-0 Son las actividades productivas.
+                    p.text-center.mb-2 #[b Funciones técnicas]
+                    p.text-center.mb-0 Son las actividades productivas.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema3/img5.svg", alt='', style="width: 90px").m-auto
-                    p.text-small.text-center.mb-2 #[b Funciones comerciales]
-                    p.text-small.text-center.mb-0 Actividades relacionadas con la compra y venta de bienes.
+                    p.text-center.mb-2 #[b Funciones comerciales]
+                    p.text-center.mb-0 Actividades relacionadas con la compra y venta de bienes.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema3/img6.svg", alt='', style="width: 90px").m-auto
-                    p.text-small.text-center.mb-2 #[b Funciones financieras]
-                    p.text-small.text-center.mb-0 Buscan la generación de rentabilidad, liquidez y administración de capital.
+                    p.text-center.mb-2 #[b Funciones financieras]
+                    p.text-center.mb-0 Buscan la generación de rentabilidad, liquidez y administración de capital.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema3/img7.svg", alt='', style="width: 90px").m-auto
-                    p.text-small.text-center.mb-2 #[b Funciones de seguridad]
-                    p.text-small.text-center.mb-0 Se enfocan en el bienestar de los colaboradores.
+                    p.text-center.mb-2 #[b Funciones de seguridad]
+                    p.text-center.mb-0 Se enfocan en el bienestar de los colaboradores.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema3/img8.svg", alt='', style="width: 90px").m-auto
-                    p.text-small.text-center.mb-2 #[b Funciones contables]
-                    p.text-small.text-center.mb-0 Están relacionadas con el área de costos y control de recursos financieros. 
+                    p.text-center.mb-2 #[b Funciones contables]
+                    p.text-center.mb-0 Están relacionadas con el área de costos y control de recursos financieros. 
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
                       .col-8
                         img(src="@/assets/curso/tema3/img9.svg", alt='', style="width: 90px").m-auto
-                    p.text-small.text-center.mb-2 #[b Funciones administrativas]
-                    p.text-small.text-center.mb-0 Relacionan las actividades administrativas de planeación, organización, dirección y control.
+                    p.text-center.mb-2 #[b Funciones administrativas]
+                    p.text-center.mb-0 Relacionan las actividades administrativas de planeación, organización, dirección y control.
 
           .row.mb-2.ms-0.mt-4
             .col-auto.bg-c3(data-aos="fade-left")
