@@ -247,7 +247,7 @@
 
                   .col-md-7.mb-4.mb-md-0
                     p #[b Lineal o militar] 
-                    p Las decisiones son tomadas por una persona, por lo que se dice que la autoridad en la empresa es ejercida por ésta, a quien los subalternos le entregan reportes de las actividades realizadas.
+                    p Las decisiones son tomadas por una persona, por lo que se dice que la autoridad en la empresa es ejercida por esta, a quien los subalternos le entregan reportes de las actividades realizadas.
 
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-5
@@ -274,7 +274,7 @@
 
                   .col-md-7.mb-4.mb-md-0
                     p #[b Matricial] 
-                    p En términos generales es utilizada por las grandes empresas, donde se combinan los recursos y materiales para ejecutar actividades específicas o proyectos.
+                    p En términos generales, es utilizada por las grandes empresas, donde se combinan los recursos y materiales para ejecutar actividades específicas o proyectos.
 
 
     .row.mb-2.ms-0.mt-4

@@ -986,17 +986,17 @@
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 |
-                p.mb-0 Dependiendo del tipo de empresa y/o sociedad se debe generar la escritura pública o documento privado en la notaría. Este documento es utilizado en el momento de constituir una sociedad, donde participan diferentes socios y sus aportes son de diversas formas.
+                p.mb-0 Dependiendo del tipo de empresa y/o sociedad, se debe generar la escritura pública o documento privado en la notaría. Este documento es utilizado en el momento de constituir una sociedad, donde participan diferentes socios y sus aportes son de diversas formas.
 
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 |
-                p.mb-0 Diligenciar y presentar el formulario de Registro Único empresarial y social (RUES) y formulario de matrícula en la Cámara de Comercio de la jurisdicción donde se encuentra ubicada la empresa.
+                p.mb-0 Diligenciar y presentar el formulario de Registro Único Empresarial y Social (RUES) y formulario de matrícula en la Cámara de Comercio de la jurisdicción donde se encuentra ubicada la empresa.
 
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 |
-                p.mb-0 Una vez diligenciados los formularios pertinentes se genera la inscripción del registro mercantil y se obtiene el certificado de existencia y representación legal.
+                p.mb-0 Una vez diligenciados los formularios pertinentes, se genera la inscripción del registro mercantil y se obtiene el certificado de existencia y representación legal.
 
       .py-3.py-md-4(titulo="Normas laborales")
         .row.justify-content-center
@@ -1006,12 +1006,12 @@
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 |
-                p.mb-0 En el caso de contratar colaboradores para el desarrollo de las actividades de la empresa se debe realizar el contrato de trabajo que reúna los requisitos legales; además de presentar los exámenes de ingreso a que hay lugar. 
+                p.mb-0 En el caso de contratar colaboradores para el desarrollo de las actividades de la empresa, se debe realizar el contrato de trabajo que reúna los requisitos legales, además de presentar los exámenes de ingreso a que hay lugar. 
 
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 | 
-                p.mb-0 Afiliar a los colaboradores a Entidades Promotoras de salud (EPS), Fondos de pensión y Administradora de Riesgos Laborales (ARL). 
+                p.mb-0 Afiliar a los colaboradores a Entidades Promotoras de Salud (EPS), Fondos de Pensión y Administradora de Riesgos Laborales (ARL). 
 
               li.d-flex
                 i.fa-solid.fa-chevron-right
@@ -1032,7 +1032,7 @@
               li.d-flex
                 i.fa-solid.fa-chevron-right
                 |
-                p.mb-0 Registrar la inscripción ante la Dirección de impuestos y Aduanas Nacionales (DIAN) para obtener el Registro Único Tributario (RUT).
+                p.mb-0 Registrar la inscripción ante la Dirección de Impuestos y Aduanas Nacionales (DIAN) para obtener el Registro Único Tributario (RUT).
 
               li.d-flex
                 i.fa-solid.fa-chevron-right
@@ -1083,7 +1083,7 @@
 
             p En desarrollo de los procesos contables, es importante tener en cuenta las Normas Internacionales de Información Financiera (NIIF), las cuales presentan constantemente cambios. Por tanto, se requiere que los profesionales en esta área se encuentren actualizados.
 
-            p El International Accounting Standars Board (IASB), es el organismo que emite los estándares internacionales NIIF o IFRS (International Financial Reporting Standars). Estos contienen los criterios de reconocimiento, medición, presentación y revelación de los hechos económicos de la empresa, los cuales son reflejados en los estados financieros; de esta manera, se establece un lenguaje contable homogéneo que genere información financiera comprensible, oportuna y útil para la toma de decisiones.
+            p El <i>International Accounting Standars Board </i> (IASB), es el organismo que emite los estándares internacionales NIIF o IFRS (<i>International Financial Reporting Standars</i>). Estos contienen los criterios de reconocimiento, medición, presentación y revelación de los hechos económicos de la empresa, los cuales son reflejados en los estados financieros; de esta manera, se establece un lenguaje contable homogéneo que genere información financiera comprensible, oportuna y útil para la toma de decisiones.
 
             p En el marco de la globalización y el acceso de mercados internacionales surge la necesidad de estandarizar la información financiera; en consecuencia, en Colombia, a partir de la expedición de la Ley 1314 de 2009 (Secretaría del Senado, 2020), se establece la regulación de los principios y normas de contabilidad e información financiera, con el fin de implementar las Normas Internacionales de Información Financiera (NIIF) de acuerdo con el tipo de empresa y actividades que desarrolla.
 
@@ -1160,9 +1160,9 @@
 
     .row.align-items-center.mt-4
       .col-lg-7
-        p.p-4.bg-t1-5  La información de los decretos relacionados anteriormente, se encuentran compilados en el Decreto Único Reglamentario 2420 de 2015, modificado por el Decreto 2496 2015, 2131 de 2016, 2170 de 2017, 2483 de 2018 y 2270 de 2019.
+        p.p-4.bg-t1-5  La información de los decretos relacionados anteriormente, se encuentran compilados en el Decreto Único Reglamentario 2420 de 2015, modificado por los Decreto 2496 2015, 2131 de 2016, 2170 de 2017, 2483 de 2018 y 2270 de 2019.
 
-        p Según el grupo de presentación al cual pertenece la empresa, se realiza el proceso de aplicación de Normas Internacionales de Información Financiera (NIIF). Por tanto, con el fin de lograr apropiación de conocimiento y fortalecer su aprendizaje se sugiere revisar el siguiente enlace:
+        p Según el grupo de presentación al cual pertenece la empresa, se realiza el proceso de aplicación de Normas Internacionales de Información Financiera (NIIF). Por tanto, con el fin de lograr apropiación de conocimiento y fortalecer su aprendizaje, se sugiere revisar el siguiente enlace:
 
         a.anexo.mb-4.mb-lg-0(href="http://www.ctcp.gov.co/normatividad/normas-locales" target="_blank")
           .anexo__icono

@@ -199,7 +199,7 @@
 
                   .col-md-7.mb-4.mb-md-0
                     p #[b Registro Único Tributario (RUT)] 
-                    p Es el documento que se tramita ente la Dirección de Impuestos y Aduanas Nacionales (DIAN), el cual relaciona la clasificación y responsabilidades del contribuyente.
+                    p Es el documento que se tramita ante la Dirección de Impuestos y Aduanas Nacionales (DIAN), el cual relaciona la clasificación y responsabilidades del contribuyente.
                   
                 .row.justify-content-center.align-items-center.my-lg-4
                   .col-md-5
