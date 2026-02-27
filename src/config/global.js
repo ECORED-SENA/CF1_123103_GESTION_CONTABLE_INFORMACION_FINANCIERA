@@ -368,8 +368,8 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Johanna Gomez Perez',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Líder del ecosistema',
           centro: ' Centro Agroturístico- Regional Santander',
         },
         {
